@@ -1,0 +1,104 @@
+* { margin:0; padding:0; box-sizing:border-box; font-family: Arial, sans-serif; }
+
+body {
+  background: radial-gradient(circle at top, #ff2a2a, #7a0000, #3b0000);
+  color:#fff;
+  padding-bottom:90px;
+}
+
+.topo {
+  background: linear-gradient(90deg, #a30000, #ff0000);
+  padding:15px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.logo img { height:46px; }
+
+.btn-login {
+  background: gold;
+  color:#7a0000;
+  border:none;
+  padding:8px 14px;
+  border-radius:6px;
+  font-weight:bold;
+}
+
+.jackpot {
+  background: linear-gradient(90deg, gold, #ff0000, gold);
+  color:#7a0000;
+  text-align:center;
+  padding:20px;
+  margin:15px;
+  border-radius:16px;
+}
+
+.categorias {
+  display:flex;
+  gap:10px;
+  padding:10px;
+  overflow-x:auto;
+}
+
+.categorias button {
+  background:#a30000;
+  border:none;
+  padding:8px 14px;
+  border-radius:20px;
+  color:#fff;
+}
+
+.categorias .ativo {
+  background: gold;
+  color:#7a0000;
+}
+
+.jogos {
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:14px;
+  padding:15px;
+}
+
+.card {
+  height:140px;
+  border-radius:18px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-weight:bold;
+  background: linear-gradient(145deg, #ff0000, #a30000);
+}
+
+.card.tiger {
+  background: linear-gradient(145deg, #ffcc00, #ff0000);
+}
+
+.card.bull {
+  background: linear-gradient(145deg, #00ff99, #006633);
+}
+
+.menu {
+  position:fixed;
+  bottom:0;
+  width:100%;
+  background:#8f0000;
+  display:flex;
+  justify-content:space-around;
+  padding:10px 0;
+}
+
+.menu button {
+  background:none;
+  border:none;
+  color:#fff;
+  font-size:12px;
+}
+
+.menu .deposito {
+  background: gold;
+  color:#7a0000;
+  padding:8px 10px;
+  border-radius:10px;
+}
